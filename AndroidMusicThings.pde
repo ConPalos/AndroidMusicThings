@@ -86,8 +86,7 @@ int fps = 6;
 boolean bee = false;
 boolean click = true;
 
-void setup() 
-{
+void setup() {
   //fullScreen();
   sine = new SinOsc(this);
   sine2 = new SinOsc(this);
@@ -144,8 +143,7 @@ void setup()
   cursor(TEXT);
 }
 
-void draw()
-{
+void draw() {
   frameRate(fps);
   background(#648B66);
 
@@ -463,8 +461,7 @@ void draw()
 //}
 //}
 
-void playNote(float note, float volume)
-{ 
+void playNote(float note, float volume) { 
   if (exclamatory < 10) {
     amp = 1;
   }
